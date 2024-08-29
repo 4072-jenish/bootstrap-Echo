@@ -1,0 +1,14 @@
+:root{
+    --primory: #081158;
+}
+
+
+.btnbg{
+    background-color:#081158 !important;
+    transition: 0.5s;
+}
+.btnbg :hover{
+    background-color: white !important;
+    border: none !important;
+    color: #081158 !important;
+}
