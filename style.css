@@ -12,3 +12,32 @@
     border: none !important;
     color: #081158 !important;
 }
+
+
+/* baneer */
+.carousel-inner h6{
+    background-color: rgba(251, 178, 68, 0.2);
+    color:#FBB244;
+    font-size: 10px;
+}
+.carousel-inner h1{
+    color: #081158;
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+
+
+
+.carousel-inner p + a{
+      background-color: #081158;
+      color: white ;
+}
+
+.carousel-inner p + a + a{
+    background-color: #fff;
+    color: #081158 ;
+    border: 2px #081158;
+}
+
+
+
