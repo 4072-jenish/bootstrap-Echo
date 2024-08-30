@@ -2,6 +2,10 @@
     --primory: #081158;
 }
 
+body{
+    font-family: 'Open Sans';
+}
+
 
 .btnbg{
     background-color:#081158 !important;
@@ -15,6 +19,26 @@
 
 
 /* baneer */
+
+.carousel{
+    padding-top: 180px;
+    margin-bottom: 100px;
+}
+
+.carousel::before{
+    content: '';
+    background-image: url(../img/bg-shape.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    
+}
+
+
 .carousel-inner h6{
     background-color: rgba(251, 178, 68, 0.2);
     color:#FBB244;
@@ -36,8 +60,20 @@
 .carousel-inner p + a + a{
     background-color: #fff;
     color: #081158 ;
-    border: 2px #081158;
+    border-radius: 50%;
+    border: 1px #081158 solid !important;
 }
 
+/* FEATUERS */
 
+.featuer-title h6{
+    background-color: rgba(251, 178, 68, 0.2);
+    color:#FBB244;
+    font-size: 10px;
+}
+.featuer-title h2{
+    color: #081158;
+    font-family: 'Montserrat';
+    font-size: 40px;   
+}
 
