@@ -1,30 +1,23 @@
 :root{
     --primory: #081158;
 }
-
 body{
     font-family: 'Open Sans';
 }
-
-
 .btnbg{
-    background-color:#081158 !important;
+    background-color:var(--primory) !important;
     transition: 0.5s;
 }
 .btnbg :hover{
     background-color: white !important;
     border: none !important;
-    color: #081158 !important;
+    color: var(--primory) !important;
 }
-
-
 /* baneer */
-
 .carousel{
     padding-top: 180px;
     margin-bottom: 100px;
 }
-
 .carousel::before{
     content: '';
     background-image: url(../img/bg-shape.svg);
@@ -37,43 +30,103 @@ body{
     background-repeat: no-repeat;
     
 }
-
-
 .carousel-inner h6{
     background-color: rgba(251, 178, 68, 0.2);
     color:#FBB244;
     font-size: 10px;
 }
 .carousel-inner h1{
-    color: #081158;
+    color: var(--primory);
     font-family: 'Montserrat';
     font-size: 40px;
 }
-
-
-
 .carousel-inner p + a{
-      background-color: #081158;
+      background-color: var(--primory);
       color: white ;
 }
-
 .carousel-inner p + a + a{
     background-color: #fff;
-    color: #081158 ;
+    color: var(--primory);
     border-radius: 50%;
     border: 1px #081158 solid !important;
 }
 
 /* FEATUERS */
-
+.featuer{
+    margin-bottom: 100px;
+}
 .featuer-title h6{
     background-color: rgba(251, 178, 68, 0.2);
     color:#FBB244;
     font-size: 10px;
 }
 .featuer-title h2{
-    color: #081158;
+    color: var(--primory);
     font-family: 'Montserrat';
     font-size: 40px;   
 }
+.feature-item img{
+    width: 50px;
+}
+.feature-item h4{
+    color: var(--primory);
+    font-family: 'Montserrat';
 
+}
+.feature-item::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+    background-color: #FBB244;
+    border-radius: 50%;
+     left: 50%;
+     top: -10px;
+     z-index: -1;
+}
+
+/* ABOUT */
+
+.about{
+    padding: 80px 0px;
+    margin-bottom: 100px;
+}
+.about-content h6{
+    background-color: rgba(251, 178, 68, 0.2);
+    color:#FBB244;
+    font-size: 10px;
+}
+.about-content{
+    margin-left: 80px;
+}
+.about-content span{
+    background-color: rgba(251, 178, 68, 0.2);
+    color: #FBB244;
+}
+.about-content h2{
+    padding-right: 100px;
+    color: var(--primory);
+}
+.about-content img{
+    width: 10px;
+    display: inline-block;
+}
+.about-content a{
+    background-color: var(--primory);
+    color: white ;
+}
+
+
+/* SERVISE */
+
+.servise-title h6{
+    background-color: rgba(251, 178, 68, 0.2);
+    color:#FBB244;
+    font-size: 10px;
+}
+.servise-title h2{
+    color: var(--primory);
+    font-family: 'Montserrat';
+    font-size: 40px;  
+}
