@@ -120,13 +120,57 @@ body{
 
 /* SERVISE */
 
-.servise-title h6{
-    background-color: rgba(251, 178, 68, 0.2);
-    color:#FBB244;
-    font-size: 10px;
-}
+
 .servise-title h2{
     color: var(--primory);
     font-family: 'Montserrat';
     font-size: 40px;  
 }
+
+.service-item ul li::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    opacity: 50%;
+    background-color: #FBB244;
+    border-radius: 50%;
+     left: 5px;
+     top: 0;
+     z-index: -1;
+}
+.service-title span{
+    background-color: rgba(251, 178, 68, 0.2);
+    color: #FBB244;
+}
+
+
+/* testimonial */
+.testimonial{
+    padding: 100px 0px;
+}
+
+.testimonial-title span{
+    background-color: rgba(251, 178, 68, 0.2);
+    color: #FBB244;
+}
+.testimonial-title h2{
+    color: var(--primory);
+    font-family: 'Montserrat';
+    font-size: 40px; 
+}
+.testimonial h5{
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.testimonial p{
+    font-size: 15px;
+}
+
+/* FOOTER */
+
+.footer-inner .col-5 .footer-item li{
+    padding:5px 12px;
+    background-color: #081158;
+}
+
