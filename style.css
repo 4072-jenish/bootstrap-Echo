@@ -50,6 +50,17 @@ body{
     border-radius: 50%;
     border: 1px #081158 solid !important;
 }
+.carousel-control-prev, .carousel-control-next{
+    width: 50px !important;
+    height: 50px;
+    top: 50% !important;
+}
+.carousel-control-prev{
+    left: 40px !important;
+}
+.carousel-control-next{
+    right: 40px !important;
+}
 
 /* FEATUERS */
 .featuer{
@@ -169,7 +180,7 @@ body{
 
 /* FOOTER */
 
-.footer-inner .col-5 .footer-item li{
+.footer-inner .col-md-6 .footer-item li{
     padding:5px 12px;
     background-color: #081158;
 }
